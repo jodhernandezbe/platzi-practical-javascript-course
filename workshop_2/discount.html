@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentages and Discounts | Practical JavaScript Course in Platzi</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Percentages and Discounts
+        </h1>
+        <p>
+            This is the second workshop for the Practical JS Course in Platzi
+        </p>
+    </header>
+    <main>
+        <section>
+            <h2>
+                Calculate the price with the discount percentage for a product
+            </h2>
+            <form>
+                <label for="InputPrice">Write the price of your product: </label>
+                <input id="InputPrice" type="number"/>
+                <label for="InputDiscount">Write the product discount percentage: </label>
+                <input id="InputDiscount" type="number"/>
+                <button type="button" onclick="CalculatePriceWithDiscount()">
+                    Price with discount
+                </button>
+                <p id="PriceResult"></p>
+            </form>
+        </section>
+    </main>
+
+    <script src="./discount.js"></script>
+</body>
+</html>
